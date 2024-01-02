@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bt-go-assignment
+  description: Go assignment to test candidates
+  annotations:
+    github.com/project-slug: BESTSELLER/bt-go-assignment
+spec:
+  type: service
+  lifecycle: experimental
+  owner: brand-tech
