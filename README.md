@@ -1,5 +1,4 @@
 # Brand Tech Go Assignment
-
 ## Introduction
 
 This test is to test a candidates basic knowledge of Go.
@@ -7,7 +6,6 @@ This test is to test a candidates basic knowledge of Go.
 Fork this repository or create a private repository with a copy of this repository and ask us for our usernames so you can invite us
 
 ## The assignment
-
 Create a Products API which returns data using proper REST syntax, e.g.
 
 - `GET /products` should return a list of products
@@ -18,7 +16,7 @@ You should use some sort of database and add seed functionality to add some init
 
 You can use data from https://fakestoreapi.com/products if you can't come up with something yourself :)
 
-Now, create a second service which stands as gateway to the API, so calls comes through the gateway, routes to API,
+Now, create a second service which stands as a gateway to the API, so calls comes through the gateway, routes to API,
 responds to user.
 
 E.g.:
@@ -34,5 +32,5 @@ What communication type you use it up to you (HTTP, gRPC, etc.)
 As the last part, create a middleware in the gateway, which logs the time used to process the entire request
 
 ## Requirements
-1. Do not use the default HTTP router, use Fiber, gin or something else
-2. Do not use the default fmt or log libs, use zerolog, zap or something else
+1. Do not use the default HTTP router, use fiber, gin or something else
+2. Do not use the default `fmt` or `log`, use zerolog, zap or something else
