@@ -3,7 +3,7 @@
 
 This test is to test a candidates basic knowledge of Go.
 
-Fork this repository or create a private repository with a copy of this repository and ask us for our usernames so you can invite us
+Create a private repository with a copy of this repository and ask us for our usernames so you can invite us
 
 ## The assignment
 Create a Products API which returns data using proper REST syntax, e.g.
