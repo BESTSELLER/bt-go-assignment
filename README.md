@@ -27,7 +27,7 @@ E.g.:
 3. Products API returns data to gateway
 4. Gateway returns data to user.
 
-What communication type you use it up to you (HTTP, gRPC, etc.)
+What communication type you use is up to you (HTTP, gRPC, etc.)
 
 As the last part, create a middleware in the gateway, which logs the time used to process the entire request
 
